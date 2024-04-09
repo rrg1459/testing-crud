@@ -15,4 +15,12 @@ psql (PostgreSQL) 15.6 (Debian 15.6-0+deb12u1)
 
 ❯❯❯ ```bundle install```
 
+❯❯❯ ```rails db:create```
+
+❯❯❯ ```rails generate model store```
+
+❯❯❯ ```rails db:migrate```
+
+❯❯❯ ```rails generate controller Stores```
+
 ---
