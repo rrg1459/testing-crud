@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+En esta app se va a explicar la implementación de la gem RSpec para poder configurar y entender el proceso de testing para poder garantizar el rendimiento y correción de errores de una aplicación en Ruby on Rails.
 
-Things you may want to cover:
+❯❯❯ ```ruby --version```  
+ruby 3.1.3p185 (2022-11-24 revision 1a6b16756e) [x86_64-linux]
 
-* Ruby version
+❯❯❯ ```rails --version```  
+Rails 7.1.3.2
 
-* System dependencies
+❯❯❯ ```psql --version```  
+psql (PostgreSQL) 15.6 (Debian 15.6-0+deb12u1)
 
-* Configuration
+❯❯❯ ```rails new testing-crud -d postgresql```
 
-* Database creation
+❯❯❯ ```bundle install```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+---
