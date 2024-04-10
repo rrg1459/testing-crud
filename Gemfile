@@ -72,4 +72,5 @@ group :test do
   gem 'database_cleaner' # Garantizar un estado limpio para las pruebas.
   gem 'factory_bot_rails' # Genera datos de prueba para nuestros tests
   gem 'faker' # Genera data aleatoria
+  gem 'rails-controller-testing'
 end
