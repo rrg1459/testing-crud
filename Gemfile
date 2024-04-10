@@ -64,6 +64,12 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
+  gem 'byebug'
   gem "capybara"
   gem "selenium-webdriver"
+  gem "webdrivers"
+  gem 'rspec-rails' # Librería de especificaciones para los escenarios de cada test
+  gem 'database_cleaner' # Garantizar un estado limpio para las pruebas.
+  gem 'factory_bot_rails' # Genera datos de prueba para nuestros tests
+  gem 'faker' # Genera data aleatoria
 end
